@@ -81,7 +81,7 @@ function vaciarCarrito() {
         if (result.isConfirmed) {
             localStorage.removeItem("carrito");
             mostrarCarrito();
-            Swal.fire("Carrito vaciado", "", "success");
+            Swal.fire("Carrito vacío", "", "success");
         }
     });
 }

@@ -13,9 +13,9 @@ function guardarCarrito(carrito) {
 async function cargarProductos() {
     try {
         const productos = [
-            { id: 1, nombre: "Pantalón", precio: 25000, imagen: "https://www.hardconditions.com/img/articulos/2023/05/pantalon_vestir_jeans_imagen1.jpg" },
-            { id: 2, nombre: "Remera", precio: 15000, imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1noZkad5aekNpDio7Fe-738wGPkNZK1vegg&s" },
-            { id: 3, nombre: "Campera", precio: 95000, imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9j9eM7D41Uz8hbKGUfNEqs-52m4FcOqLKbQ&s" }
+            { id: 1, nombre: "Pantalón", precio: 25000, imagen: "./img/pantalon.jpg" },
+            { id: 2, nombre: "Remera", precio: 15000, imagen: "./img/remera.jpg" },
+            { id: 3, nombre: "Campera", precio: 95000, imagen: "./img/campera.jpg" }
         ];
         mostrarProductos(productos);
     } catch (error) {
